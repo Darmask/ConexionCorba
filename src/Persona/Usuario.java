@@ -80,16 +80,22 @@ public class Usuario extends javax.swing.JFrame {
         tblPersona.setModel(modeloPersona);
         jScrollPane2.setViewportView(tblPersona);
 
+        lblidentificacion.setForeground(new java.awt.Color(255, 0, 0));
         lblidentificacion.setText("Identificacion : ");
 
+        lblNombre.setForeground(new java.awt.Color(255, 0, 0));
         lblNombre.setText("Nombre :");
 
+        lblApellido.setForeground(new java.awt.Color(255, 0, 0));
         lblApellido.setText("Apellido :");
 
+        lblDireccion.setForeground(new java.awt.Color(255, 0, 0));
         lblDireccion.setText("Direccion :");
 
+        lblTelefono.setForeground(new java.awt.Color(255, 0, 0));
         lblTelefono.setText("Telefono  :");
 
+        lblEmail.setForeground(new java.awt.Color(255, 0, 0));
         lblEmail.setText("Email :");
 
         txtIdentificacion.addActionListener(new java.awt.event.ActionListener() {
